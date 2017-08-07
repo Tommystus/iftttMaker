@@ -7,3 +7,11 @@ Set your event name and key using ```ifttt.event``` and ```ifttt.key``` configur
 
 See [quick start guide](https://mongoose-os.com/docs/#/quickstart/)
 on how to build and flash the firmware.
+Examples build:
+```
+git clone https://github.com/Tommystus/iftttMaker.git
+mos build --arch esp8266
+mos flash
+mos config-set ifttt.event=myEvent ifttt.key=myyyyy_keyyyy
+```
+
